@@ -1,0 +1,977 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Surjya Kamal Saha - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Surjya Kamal Saha" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Surjya Kamal Saha">Surjya Kamal Saha</h1>
+
+          <p class="title">Data Scientist & Software Developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:surjyakamalsaha@gmail.com" class="contact-link">surjyakamalsaha@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+919641401725" class="contact-link">+91 9641401725</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="2003-08-08">08 August, 2003</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>West Bengal, India</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+    <!--
+      - #main-content
+    -->
+    <div class="main-content">
+        <!-- NAVBAR -->
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link active" data-nav-link data-page="about">About</button>
+            </li>
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link data-page="resume">Resume</button>
+            </li>
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link data-page="portfolio">Portfolio</button>
+            </li>
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link data-page="blog">Blog</button>
+            </li>
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link data-page="contact">Contact</button>
+            </li>
+          </ul>
+        </nav>
+          
+        <!--
+          - #ABOUT
+        -->
+  
+        <article class="about active" data-page="about">
+  
+          <header>
+            <h2 class="h2 article-title">About me</h2>
+          </header>
+  
+          <section class="about-text">
+            <p>
+              I'm a Data Scientist and Software Developer from India, specializing in Machine Learning, Data Engineering, and AI-driven solutions. I enjoy solving complex problems and creating efficient, scalable systems.
+            </p>
+  
+            <p>
+              My goal is to develop intelligent systems that enhance decision-making and improve user experiences. I have worked on projects involving predictive maintenance, multi-agent AI systems, real-time data analytics, and resume analysis.
+            </p>
+          </section>
+  
+          <!--
+            - service
+          -->
+  
+          <section class="service">
+  
+            <h3 class="h3 service-title">What I'm doing</h3>
+  
+            <ul class="service-list">
+  
+              <li class="service-item">
+  
+                <div class="service-icon-box">
+                  <img src="./assets/images/icon-design.svg" alt="design icon" width="40">
+                </div>
+  
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Machine Learning & AI</h4>
+  
+                  <p class="service-item-text">
+                    Developing AI-driven solutions for predictive maintenance, anomaly detection, and automation.
+                  </p>
+                </div>
+  
+              </li>
+  
+              <li class="service-item">
+  
+                <div class="service-icon-box">
+                  <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+                </div>
+  
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Web Development</h4>
+  
+                  <p class="service-item-text">
+                    Building dynamic and scalable applications using Python, Flask, and Streamlit.
+                  </p>
+                </div>
+  
+              </li>
+  
+              <li class="service-item">
+  
+                <div class="service-icon-box">
+                  <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+                </div>
+  
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Data Engineering</h4>
+  
+                  <p class="service-item-text">
+                    Designing ETL pipelines, real-time data analytics, and cloud-based solutions.
+                  </p>
+                </div>
+  
+              </li>
+  
+              <li class="service-item">
+  
+                <div class="service-icon-box">
+                  <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+                </div>
+  
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">AI Research</h4>
+  
+                  <p class="service-item-text">
+                    Exploring and implementing state-of-the-art AI models for various industries.
+                  </p>
+                </div>
+  
+              </li>
+  
+            </ul>
+  
+          </section>
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+            <h3 class="h3 testimonials-title">Testimonials</h3>
+  
+            <ul class="testimonials-list has-scrollbar">
+  
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+  
+                  <figure class="testimonials-avatar-box">
+                    <img src="./assets/images/avatar-1.png" alt="Nikhil Kamble" width="60" data-testimonials-avatar>
+                  </figure>
+  
+                  <h4 class="h4 testimonials-item-title" data-testimonials-title>Nikhil Kamble</h4>
+  
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      Surjya was hired for an AI/ML project. His expertise in machine learning and data science was crucial in delivering an efficient solution. Highly recommended!
+                    </p>
+                  </div>
+  
+                </div>
+              </li>
+  
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+  
+                  <figure class="testimonials-avatar-box">
+                    <img src="./assets/images/avatar-2.png" alt="Sakshi Mishra" width="60" data-testimonials-avatar>
+                  </figure>
+  
+                  <h4 class="h4 testimonials-item-title" data-testimonials-title>Sakshi Mishra</h4>
+  
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      I collaborated with Surjya on a data analytics project. His problem-solving skills and ability to work under pressure were impressive. A great team player!
+                    </p>
+                  </div>
+  
+                </div>
+              </li>
+  
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+  
+                  <figure class="testimonials-avatar-box">
+                    <img src="./assets/images/avatar-3.png" alt="Emily Evans" width="60" data-testimonials-avatar>
+                  </figure>
+  
+                  <h4 class="h4 testimonials-item-title" data-testimonials-title>Emily Evans</h4>
+  
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      Surjya's knowledge of AI and ML models helped us optimize our processes significantly. His ability to implement efficient algorithms is outstanding!
+                    </p>
+                  </div>
+  
+                </div>
+              </li>
+  
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+  
+                  <figure class="testimonials-avatar-box">
+                    <img src="./assets/images/avatar-4.png" alt="Henry William" width="60" data-testimonials-avatar>
+                  </figure>
+  
+                  <h4 class="h4 testimonials-item-title" data-testimonials-title>Henry William</h4>
+  
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      Surjya played a vital role in our predictive maintenance project. His expertise in data pipelines and model deployment ensured the project's success.
+                    </p>
+                  </div>
+  
+                </div>
+              </li>
+  
+            </ul>
+  
+          </section>
+  
+  
+          <!--
+            - testimonials modal
+          -->
+  
+          <div class="modal-container" data-modal-container>
+  
+            <div class="overlay" data-overlay></div>
+  
+            <section class="testimonials-modal">
+  
+              <button class="modal-close-btn" data-modal-close-btn>
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
+  
+              <div class="modal-img-wrapper">
+                <figure class="modal-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Nikhil Kamble" width="80" data-modal-img>
+                </figure>
+  
+                <img src="./assets/images/icon-quote.svg" alt="quote icon">
+              </div>
+  
+              <div class="modal-content">
+  
+                <h4 class="h3 modal-title" data-modal-title>Nikhil Kamble</h4>
+  
+                <time datetime="2025-02-19">19 February, 2025</time>
+  
+                <div data-modal-text>
+                  <p>
+                    Surjya was hired for an AI/ML project. His expertise in machine learning and data science was crucial in delivering an efficient solution. Highly recommended!
+                  </p>
+                </div>
+  
+              </div>
+  
+            </section>
+  
+          </div>
+        </article>
+        
+        <!--
+        - #RESUME
+        -->
+
+        <article class="resume" data-page="resume">
+
+          <header>
+            <h2 class="h2 article-title">Resume</h2>
+          </header>
+
+          <section class="timeline">
+
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Education</h3>
+            </div>
+
+            <ol class="timeline-list">
+
+              <li class="timeline-item">
+
+                <h4 class="h4 timeline-item-title">University of Engineering & Management, Kolkata</h4>
+
+                <span>2021 — 2025</span>
+
+                <p class="timeline-text">
+                  Bachelor of Technology in Computer Science & Engineering.
+                </p>
+
+              </li>
+
+            </ol>
+
+          </section>
+
+          <section class="timeline">
+
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Experience</h3>
+            </div>
+
+            <ol class="timeline-list">
+
+              <li class="timeline-item">
+
+                <h4 class="h4 timeline-item-title">Data Science Intern - Code Alpha</h4>
+
+                <span>Aug 2024 — Sep 2024</span>
+
+                <p class="timeline-text">
+                  Worked on machine learning models, data preprocessing, and predictive analysis.
+                </p>
+
+              </li>
+
+              <li class="timeline-item">
+
+                <h4 class="h4 timeline-item-title">Data Science Intern - CodeInterns</h4>
+
+                <span>Sep 2024 — Oct 2024</span>
+
+                <p class="timeline-text">
+                  Developed classification models and worked with real-world datasets to enhance model accuracy.
+                </p>
+
+              </li>
+
+            </ol>
+
+          </section>
+
+          <section class="projects">
+
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="folder-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Projects</h3>
+            </div>
+
+            <ol class="timeline-list">
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Titanic Classification</h4>
+                <p class="timeline-text">Developed a machine learning model to predict Titanic survivors using feature engineering and classification algorithms.</p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Heart Disease Prediction</h4>
+                <p class="timeline-text">Implemented an artificial neural network (ANN) to predict heart disease using patient medical data.</p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Google Play Store Data Analytics</h4>
+                <p class="timeline-text">Analyzed real-time Google Play Store data to extract insights into app performance, user behavior, and market trends.</p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Predictive Maintenance with Machine Learning</h4>
+                <p class="timeline-text">Developed an ML-based predictive maintenance system using anomaly detection and failure prediction for industrial applications.</p>
+              </li>
+
+            </ol>
+
+          </section>
+
+          <section class="skill">
+
+            <h3 class="h3 skills-title">My skills</h3>
+
+            <ul class="skills-list content-card">
+
+              <li class="skills-item">
+
+                <div class="title-wrapper">
+                  <h5 class="h5">Python</h5>
+                  <data value="90">90%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 90%;"></div>
+                </div>
+
+              </li>
+
+              <li class="skills-item">
+
+                <div class="title-wrapper">
+                  <h5 class="h5">Machine Learning</h5>
+                  <data value="85">85%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 85%;"></div>
+                </div>
+
+              </li>
+
+              <li class="skills-item">
+
+                <div class="title-wrapper">
+                  <h5 class="h5">Deep Learning</h5>
+                  <data value="80">80%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 80%;"></div>
+                </div>
+
+              </li>
+
+              <li class="skills-item">
+
+                <div class="title-wrapper">
+                  <h5 class="h5">SQL</h5>
+                  <data value="75">75%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 75%;"></div>
+                </div>
+
+              </li>
+
+            </ul>
+
+          </section>
+
+        </article>
+        
+        <!--
+        - #PORTFOLIO
+        -->
+
+        <article class="portfolio" data-page="portfolio">
+
+          <header>
+            <h2 class="h2 article-title">Portfolio</h2>
+          </header>
+
+          <section class="projects">
+
+            <ul class="filter-list">
+
+              <li class="filter-item">
+                <button class="active" data-filter-btn>All</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Machine Learning</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Web Applications</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Data Science</button>
+              </li>
+
+            </ul>
+
+            <div class="filter-select-box">
+
+              <button class="filter-select" data-select>
+
+                <div class="select-value" data-selecct-value>Select category</div>
+
+                <div class="select-icon">
+                  <ion-icon name="chevron-down"></ion-icon>
+                </div>
+
+              </button>
+
+              <ul class="select-list">
+
+                <li class="select-item">
+                  <button data-select-item>All</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Machine Learning</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Web Applications</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Data Science</button>
+                </li>
+
+              </ul>
+
+            </div>
+
+            <ul class="project-list">
+
+              <li class="project-item active" data-filter-item data-category="machine learning">
+                <a href="#">
+
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img src="./assets/images/titanic.webp" alt="Titanic Classification" loading="lazy">
+                  </figure>
+
+                  <h3 class="project-title">Titanic Classification</h3>
+
+                  <p class="project-category">Machine Learning</p>
+
+                </a>
+              </li>
+
+              <li class="project-item active" data-filter-item data-category="machine learning">
+                <a href="#">
+
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img src="./assets/images/heart_disease.webp" alt="Heart Disease Prediction" loading="lazy">
+                  </figure>
+
+                  <h3 class="project-title">Heart Disease Prediction</h3>
+
+                  <p class="project-category">Machine Learning</p>
+
+                </a>
+              </li>
+
+              <li class="project-item active" data-filter-item data-category="web applications">
+                <a href="#">
+
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img src="./assets/images/voting_system.webp" alt="Secure Voting System" loading="lazy">
+                  </figure>
+
+                  <h3 class="project-title">Secure Voting System</h3>
+
+                  <p class="project-category">Web Applications</p>
+
+                </a>
+              </li>
+
+              <li class="project-item active" data-filter-item data-category="data science">
+                <a href="#">
+
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img src="./assets/images/google_play_analytics.webp" alt="Google Play Store Analytics" loading="lazy">
+                  </figure>
+
+                  <h3 class="project-title">Google Play Store Analytics</h3>
+
+                  <p class="project-category">Data Science</p>
+
+                </a>
+              </li>
+
+              <li class="project-item active" data-filter-item data-category="machine learning">
+                <a href="#">
+
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img src="./assets/images/brain_tumor.webp" alt="Brain Tumor Detection" loading="lazy">
+                  </figure>
+
+                  <h3 class="project-title">Brain Tumor Detection</h3>
+
+                  <p class="project-category">Machine Learning</p>
+
+                </a>
+              </li>
+
+              <li class="project-item active" data-filter-item data-category="web applications">
+                <a href="#">
+
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img src="./assets/images/billing_system.webp" alt="Billing System" loading="lazy">
+                  </figure>
+
+                  <h3 class="project-title">Billing System</h3>
+
+                  <p class="project-category">Web Applications</p>
+
+                </a>
+              </li>
+
+            </ul>
+
+          </section>
+
+        </article>
+        
+        <!--
+        - #BLOG
+        -->
+
+        <article class="blog" data-page="blog">
+
+          <header>
+            <h2 class="h2 article-title">Blog</h2>
+          </header>
+
+          <section class="blog-posts">
+
+            <ul class="blog-posts-list">
+
+              <li class="blog-post-item">
+                <a href="#">
+
+                  <figure class="blog-banner-box">
+                    <img src="./assets/images/blog-1.jpg" alt="Titanic Classification Project" loading="lazy">
+                  </figure>
+
+                  <div class="blog-content">
+
+                    <div class="blog-meta">
+                      <p class="blog-category">Data Science</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2024-08-16">Aug 16, 2024</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">Titanic Classification Project</h3>
+
+                    <p class="blog-text">
+                      Improving the accuracy of Titanic classification using advanced techniques and feature selection.
+                    </p>
+
+                  </div>
+
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="#">
+
+                  <figure class="blog-banner-box">
+                    <img src="./assets/images/blog-2.jpg" alt="Heart Disease Prediction using ANN" loading="lazy">
+                  </figure>
+
+                  <div class="blog-content">
+
+                    <div class="blog-meta">
+                      <p class="blog-category">Machine Learning</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2024-08-21">Aug 21, 2024</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">Heart Disease Prediction using ANN</h3>
+
+                    <p class="blog-text">
+                      Implementing an artificial neural network model to predict heart disease with high accuracy.
+                    </p>
+
+                  </div>
+
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="#">
+
+                  <figure class="blog-banner-box">
+                    <img src="./assets/images/blog-3.jpg" alt="Google Play Store Data Analytics" loading="lazy">
+                  </figure>
+
+                  <div class="blog-content">
+
+                    <div class="blog-meta">
+                      <p class="blog-category">Big Data</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2024-09-20">Sep 20, 2024</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">Google Play Store Data Analytics</h3>
+
+                    <p class="blog-text">
+                      Analyzing real-time Google Play Store data to derive insights on user behavior and app performance.
+                    </p>
+
+                  </div>
+
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="#">
+
+                  <figure class="blog-banner-box">
+                    <img src="./assets/images/blog-4.jpg" alt="Predictive Maintenance with ML" loading="lazy">
+                  </figure>
+
+                  <div class="blog-content">
+
+                    <div class="blog-meta">
+                      <p class="blog-category">AI & IoT</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2024-10-30">Oct 30, 2024</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">Predictive Maintenance with ML</h3>
+
+                    <p class="blog-text">
+                      Using machine learning models to predict equipment failures and optimize maintenance strategies.
+                    </p>
+
+                  </div>
+
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="#">
+
+                  <figure class="blog-banner-box">
+                    <img src="./assets/images/blog-5.jpg" alt="AI Resume Analyzer" loading="lazy">
+                  </figure>
+
+                  <div class="blog-content">
+
+                    <div class="blog-meta">
+                      <p class="blog-category">Artificial Intelligence</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2025-02-15">Feb 15, 2025</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">AI Resume Analyzer</h3>
+
+                    <p class="blog-text">
+                      Developing an AI-based resume analyzer to automate candidate screening for recruitment processes.
+                    </p>
+
+                  </div>
+
+                </a>
+              </li>
+
+            </ul>
+
+          </section>
+
+        </article>
+        
+        <!--
+        - #CONTACT
+        -->
+
+        <article class="contact" data-page="contact">
+
+          <header>
+            <h2 class="h2 article-title">Contact</h2>
+          </header>
+
+          <section class="mapbox" data-mapbox>
+            <figure>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199666.5651251294!2d88.363892!3d22.572646!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0277b7e9a5f123%3A0x2d3a7e9f2e7fbb5!2sKolkata%2C%20West%20Bengal%2C%20India!5e0!3m2!1sen!2sin!4v1647608789441!5m2!1sen!2sin"
+                width="400" height="300" loading="lazy"></iframe>
+            </figure>
+          </section>
+
+          <section class="contact-form">
+
+            <h3 class="h3 form-title">Contact Form</h3>
+
+            <form action="#" class="form" data-form>
+
+              <div class="input-wrapper">
+                <input type="text" name="fullname" class="form-input" placeholder="Surjya Kamal Saha" required data-form-input>
+
+                <input type="email" name="email" class="form-input" placeholder="surjyakamalsaha@example.com" required data-form-input>
+              </div>
+
+              <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+              <button class="form-btn" type="submit" disabled data-form-btn>
+                <ion-icon name="paper-plane"></ion-icon>
+                <span>Send Message</span>
+              </button>
+
+            </form>
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+<script src="assets/js/script.js"></script>
