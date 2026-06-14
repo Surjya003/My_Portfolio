@@ -18,26 +18,30 @@ if (!canvas) {
     canvas.style.display = 'none';
     const loadingScreen = document.getElementById('loading-screen');
     if (loadingScreen) loadingScreen.remove();
-} else {
-    // Dynamic import — splits Three.js into a separate chunk for performance
-    import('./src/managers/SceneManager.js').then(({ SceneManager }) => {
-        try {
-            new SceneManager(canvas);
+    // Defer 3D initialization to prevent main-thread blocking on initial load
+    window.addEventListener('load', () => {
+        setTimeout(() => {
+            // Dynamic import — splits Three.js into a separate chunk for performance
+            import('./src/managers/SceneManager.js').then(({ SceneManager }) => {
+                try {
+                    new SceneManager(canvas);
 
-            // Dismiss loading screen
-            const loadingScreen = document.getElementById('loading-screen');
-            if (loadingScreen) {
-                loadingScreen.style.opacity = '0';
-                setTimeout(() => loadingScreen.remove(), 600);
-            }
-        } catch (error) {
-            console.error('Error initializing 3D scene:', error);
-            const loadingScreen = document.getElementById('loading-screen');
-            if (loadingScreen) loadingScreen.remove();
-        }
-    }).catch(error => {
-        console.error('Failed to load 3D scene module:', error);
-        const loadingScreen = document.getElementById('loading-screen');
-        if (loadingScreen) loadingScreen.remove();
+                    // Dismiss loading screen
+                    const loadingScreen = document.getElementById('loading-screen');
+                    if (loadingScreen) {
+                        loadingScreen.style.opacity = '0';
+                        setTimeout(() => loadingScreen.remove(), 600);
+                    }
+                } catch (error) {
+                    console.error('Error initializing 3D scene:', error);
+                    const loadingScreen = document.getElementById('loading-screen');
+                    if (loadingScreen) loadingScreen.remove();
+                }
+            }).catch(error => {
+                console.error('Failed to load 3D scene module:', error);
+                const loadingScreen = document.getElementById('loading-screen');
+                if (loadingScreen) loadingScreen.remove();
+            });
+        }, 100);
     });
 }

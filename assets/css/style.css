@@ -531,7 +531,7 @@ canvas.webgl {
   position: absolute;
   inset: 0;
   z-index: 0;
-  background-image: url('../images/space_hero_bg.png');
+  background-image: url('../images/space_hero_bg.webp');
   background-size: cover;
   background-position: center;
   transform: scale(1);
@@ -1710,7 +1710,7 @@ canvas.webgl {
   font-size: 0.65rem; /* text-[10px] */
   text-transform: uppercase;
   letter-spacing: 0.2em;
-  color: rgba(255, 255, 255, 0.35);
+  color: rgba(255, 255, 255, 0.65);
 }
 
 /* ── Core Systems (Services) ────────────────────────────────── */
@@ -4537,7 +4537,7 @@ a.contact-card:hover {
 .footer-copy-new {
   font-family: monospace;
   font-size: 0.75rem;
-  color: rgba(255, 255, 255, 0.4);
+  color: rgba(255, 255, 255, 0.7);
 }
 
 .back-to-top-new {
@@ -5952,7 +5952,7 @@ a.contact-card:hover {
 /* ── 9. High DPI / Retina ───────────────────────────────── */
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   .hero-bg {
-    background-image: url('../images/space_hero_bg.png');
+    background-image: url('../images/space_hero_bg.webp');
   }
 }
 
