@@ -1,0 +1,1439 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Surjya Kamal Saha — Full Stack Developer | React, Node.js, Python</title>
+  <meta name="description" content="Full Stack Developer from India specializing in React, Node.js, FastAPI, and DevOps. Building production web apps, REST APIs, and data-driven tools. Available for freelance and full-time.">
+  <meta name="robots" content="index, follow">
+  <meta name="keywords" content="Surjya Kamal Saha, Full Stack Developer, React, Node.js, Python, FastAPI, Express, DevOps, Docker, India, West Bengal, Web Developer">
+  <meta name="author" content="Surjya Kamal Saha">
+  <meta name="geo.region" content="IN-WB">
+  <meta name="geo.placename" content="Kolkata">
+  <link rel="alternate" hreflang="en-IN" href="https://surjyakamalsaha.netlify.app/">
+  <link rel="canonical" href="https://surjyakamalsaha.netlify.app/">
+  <meta name="theme-color" content="#0a0a0a">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://surjyakamalsaha.netlify.app/">
+  <meta property="og:title" content="Surjya Kamal Saha — Full Stack Developer | React, Node.js, Python">
+  <meta property="og:description" content="Full Stack Developer from India specializing in React, Node.js, FastAPI, and DevOps. Building production web apps, REST APIs, and data-driven tools.">
+  <meta property="og:image" content="https://surjyakamalsaha.netlify.app/assets/images/og_social_preview.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://surjyakamalsaha.netlify.app/">
+  <meta name="twitter:title" content="Surjya Kamal Saha — Full Stack Developer">
+  <meta name="twitter:description" content="Full Stack Developer from India specializing in React, Node.js, FastAPI, and DevOps. Building production web apps, REST APIs, and data-driven tools.">
+  <meta name="twitter:image" content="https://surjyakamalsaha.netlify.app/assets/images/og_social_preview.png">
+
+  <!-- PWA & Tiles -->
+  <link rel="manifest" href="/manifest.json">
+  <meta name="msapplication-config" content="/browserconfig.xml">
+
+  <!-- JSON-LD Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Person",
+        "@id": "https://surjyakamalsaha.netlify.app/#person",
+        "name": "Surjya Kamal Saha",
+        "jobTitle": "Full Stack Developer",
+        "url": "https://surjyakamalsaha.netlify.app/",
+        "email": "surjyakamalsaha@gmail.com",
+        "image": "https://surjyakamalsaha.netlify.app/assets/images/og_social_preview.png",
+        "description": "Full Stack Developer from India specializing in React, Node.js, FastAPI, and DevOps. Building production web apps, REST APIs, and data-driven tools.",
+        "sameAs": [
+          "https://github.com/Surjya003",
+          "https://www.linkedin.com/in/surjyakamal-saha-6a7553220/",
+          "https://www.instagram.com/surjya003/"
+        ],
+        "knowsAbout": ["React", "Node.js", "Python", "FastAPI", "Express", "Docker", "AWS", "MySQL", "JavaScript", "REST APIs", "CI/CD", "Git"],
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "West Bengal",
+          "addressRegion": "West Bengal",
+          "addressCountry": "IN"
+        },
+        "alumniOf": {
+          "@type": "CollegeOrUniversity",
+          "name": "University of Engineering & Management, Kolkata"
+        },
+        "hasCredential": [
+          {
+            "@type": "EducationalOccupationalCredential",
+            "credentialCategory": "Google Cybersecurity"
+          },
+          {
+            "@type": "EducationalOccupationalCredential",
+            "credentialCategory": "Network Automation"
+          },
+          {
+            "@type": "EducationalOccupationalCredential",
+            "credentialCategory": "Linux DevOps"
+          },
+          {
+            "@type": "EducationalOccupationalCredential",
+            "credentialCategory": "AI Foundation"
+          }
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://surjyakamalsaha.netlify.app/#website",
+        "url": "https://surjyakamalsaha.netlify.app/",
+        "name": "Surjya Kamal Saha Portfolio",
+        "publisher": { "@id": "https://surjyakamalsaha.netlify.app/#person" }
+      },
+      {
+        "@type": "ItemList",
+        "name": "Featured Projects",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Binapani Automation Website",
+            "url": "https://binapani.netlify.app/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Binance USDT-M Futures Trading Bot",
+            "url": "https://github.com/Surjya003"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Job Portal Web App",
+            "url": "https://github.com/Surjya003"
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Core Systems", "item": "https://surjyakamalsaha.netlify.app/#services" },
+          { "@type": "ListItem", "position": 2, "name": "Stellar Range", "item": "https://surjyakamalsaha.netlify.app/#work" },
+          { "@type": "ListItem", "position": 3, "name": "Hull Integrity", "item": "https://surjyakamalsaha.netlify.app/#stack" },
+          { "@type": "ListItem", "position": 4, "name": "The Ascent", "item": "https://surjyakamalsaha.netlify.app/#experience" }
+        ]
+      },
+      {
+        "@type": "LocalBusiness",
+        "name": "Binapani Automation",
+        "url": "https://binapani.netlify.app/",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Krishnanagar",
+          "addressLocality": "Krishnanagar",
+          "addressRegion": "West Bengal",
+          "postalCode": "741101",
+          "addressCountry": "IN"
+        },
+        "description": "Multi-brand VFD & PLC stockist and system integrator",
+        "sameAs": [
+          "https://binapani.netlify.app/"
+        ]
+      }
+    ]
+  }
+  </script>
+
+  <!-- Performance Preloads -->
+  <link rel="preload" as="image" href="/assets/images/space_hero_bg.png" fetchpriority="high">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  </noscript>
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+
+  <!-- Ionicons (for a few icons) -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  <!-- Portfolio CSS -->
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 3D Scene entry (Three.js via Vite) -->
+  <script type="module" defer src="/main.js"></script>
+</head>
+
+<body>
+
+  <!-- Skip to content -->
+  <a href="#hero" class="skip-link">Skip to content</a>
+
+  <!-- Loading Screen -->
+  <div id="loading-screen">
+    <div class="spinner"></div>
+    <p>Initializing experience…</p>
+  </div>
+
+  <!-- 3D Canvas Background -->
+  <canvas class="webgl" aria-hidden="true"></canvas>
+  <div class="wireframe-bg" aria-hidden="true"></div>
+
+  <!-- ============================================================
+       NAVBAR — Futuristic Space-22 Pill Nav
+       ============================================================ -->
+  <header class="navbar" role="banner">
+    <div class="navbar-inner container">
+      <!-- Logo with planet icon -->
+      <a href="#hero" class="nav-logo" aria-label="Surjya Kamal Saha — Home">
+        <ion-icon name="planet-outline" class="nav-logo-icon" aria-hidden="true"></ion-icon>
+        <span class="nav-logo-text">SKS</span>
+      </a>
+
+      <!-- Desktop nav links (center) -->
+      <nav aria-label="Main navigation" class="nav-center">
+        <ul class="nav-links" role="list">
+          <li><a href="#hero"       class="nav-link" data-section="hero" aria-current="page">Home</a></li>
+          <li><a href="#services"   class="nav-link" data-section="services">Services</a></li>
+          <li><a href="#work"       class="nav-link" data-section="work">Work</a></li>
+          <li><a href="#stack"      class="nav-link" data-section="stack">Stack</a></li>
+          <li><a href="#experience" class="nav-link" data-section="experience">Resume</a></li>
+          <li><a href="#contact"    class="nav-link" data-section="contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Right side: search button -->
+      <div class="nav-actions">
+        <button class="nav-search" aria-label="Search" id="nav-search-btn">
+          <ion-icon name="search-outline" aria-hidden="true"></ion-icon>
+        </button>
+      </div>
+
+      <!-- Hamburger (mobile only) -->
+      <button class="nav-toggle" aria-label="Toggle mobile menu" aria-expanded="false" id="nav-toggle-btn">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile nav overlay -->
+  <nav class="nav-mobile" aria-label="Mobile navigation" id="nav-mobile">
+    <a href="#hero"       class="nav-link" data-section="hero" aria-current="page">Home</a>
+    <a href="#services"   class="nav-link" data-section="services">Services</a>
+    <a href="#work"       class="nav-link" data-section="work">Work</a>
+    <a href="#stack"      class="nav-link" data-section="stack">Stack</a>
+    <a href="#experience" class="nav-link" data-section="experience">Resume</a>
+    <a href="#contact"    class="nav-link" data-section="contact">Contact</a>
+    <a href="#contact"    class="btn-primary" style="margin-top:8px;">Hire Me</a>
+  </nav>
+
+  <main id="main-content">
+
+    <!-- ============================================================
+         SECTION 1 — HERO (Futuristic Space-22 Cinematic)
+         ============================================================ -->
+    <section id="hero" aria-label="Introduction">
+      <!-- Space background image layer -->
+      <div class="hero-bg" aria-hidden="true"></div>
+
+      <!-- Dark gradient overlay -->
+      <div class="hero-gradient-overlay" aria-hidden="true"></div>
+
+
+
+      <div class="container">
+        <div class="hero-cinematic">
+
+          <!-- Floating status indicator (top-right) -->
+          <div class="hero-status-floating" aria-hidden="true">
+            <span class="status-dot" aria-hidden="true"></span>
+            <span class="status-text">Available for Work</span>
+          </div>
+
+          <!-- Left side (7-col): Oversized name -->
+          <div class="hero-main">
+            <div class="hero-identity">
+              <p class="hero-label">— Est. 2025 · Full Stack Developer</p>
+              <h1 class="hero-name-cinematic">
+                <span class="name-line">SURJYA</span>
+                <span class="name-line">KAMAL</span>
+                <span class="name-line">SAHA</span>
+              </h1>
+            </div>
+
+            <!-- Social links (compact) -->
+            <div class="hero-social-cinematic" aria-label="Social profiles">
+              <a href="https://github.com/Surjya003"
+                 class="social-icon-cinematic"
+                 target="_blank" rel="noopener noreferrer"
+                 aria-label="GitHub profile">
+                <ion-icon name="logo-github" aria-hidden="true"></ion-icon>
+              </a>
+              <a href="https://www.linkedin.com/in/surjyakamal-saha-6a7553220/"
+                 class="social-icon-cinematic"
+                 target="_blank" rel="noopener noreferrer"
+                 aria-label="LinkedIn profile">
+                <ion-icon name="logo-linkedin" aria-hidden="true"></ion-icon>
+              </a>
+              <a href="https://www.instagram.com/surjya003/"
+                 class="social-icon-cinematic"
+                 target="_blank" rel="noopener noreferrer"
+                 aria-label="Instagram profile">
+                <ion-icon name="logo-instagram" aria-hidden="true"></ion-icon>
+              </a>
+              <a href="mailto:surjyakamalsaha@gmail.com"
+                 class="social-icon-cinematic"
+                 aria-label="Send email">
+                <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+              </a>
+            </div>
+          </div>
+
+          <!-- Right side (4-col): Glassmorphism info card -->
+          <aside class="hero-card" aria-labelledby="hero-card-title">
+            <div class="hero-card-shimmer" aria-hidden="true"></div>
+
+            <div class="hero-card-content">
+              <h2 id="hero-card-title" class="sr-only">About</h2>
+
+              <p class="hero-card-bio">
+                Full Stack Developer with experience delivering production web applications for clients and building RESTful APIs, React/Node.js apps, and data-driven tools. Passionate about clean code, automation, and shipping reliable software end-to-end.
+              </p>
+
+              <div class="hero-card-stats">
+                <div class="stat-item">
+                  <span class="stat-value">4+</span>
+                  <span class="stat-label">Projects</span>
+                </div>
+                <div class="stat-divider" aria-hidden="true"></div>
+                <div class="stat-item">
+                  <span class="stat-value">2+</span>
+                  <span class="stat-label">Yrs Exp</span>
+                </div>
+                <div class="stat-divider" aria-hidden="true"></div>
+                <div class="stat-item">
+                  <span class="stat-value">4</span>
+                  <span class="stat-label">Certs</span>
+                </div>
+              </div>
+
+              <a href="#work" class="hero-card-cta" id="hero-explore-btn">
+                <span>Explore My Work</span>
+                <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+              </a>
+            </div>
+          </aside>
+
+          <!-- Bottom: Scroll indicator -->
+          <div class="hero-scroll-cinematic" aria-hidden="true">
+            <span class="scroll-label">Scroll</span>
+            <div class="scroll-line">
+              <div class="scroll-line-fill"></div>
+            </div>
+          </div>
+
+          <!-- Bottom-left: System status card -->
+          <div class="hero-system-status" aria-hidden="true">
+            <span class="sys-label">Portfolio v2.0</span>
+            <span class="sys-dot" aria-hidden="true"></span>
+            <span class="sys-version">Build: Stable ⦿ 99.9%</span>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Divider: SCAN -->
+    <div class="section-divider" aria-hidden="true">
+      <div class="section-divider-line"></div>
+      <div class="section-divider-glow"></div>
+      <div class="section-divider-center">
+        <div class="section-divider-dot"></div>
+      </div>
+    </div>
+
+    <!-- ============================================================
+         SECTION 2 — SERVICES (CORE SYSTEMS)
+         ============================================================ -->
+    <section id="services" aria-labelledby="core-systems-heading" class="core-systems-section">
+      <div class="container">
+
+        <div class="core-systems-header reveal">
+          <div class="core-eyebrow">
+            <span class="eyebrow-line"></span>
+            <span class="eyebrow-text">System Architecture</span>
+          </div>
+          <h2 class="core-title" id="core-systems-heading">Core Systems</h2>
+          <p class="core-subtitle">Production-grade technology stack engineered for reliable software delivery.</p>
+          <a href="#stack" class="core-pill-btn">View Full Stack <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon></a>
+        </div>
+
+        <div class="core-systems-grid">
+
+          <!-- Card 1: Full Stack Web Development -->
+          <article class="core-card accent-emerald reveal reveal-delay-1" aria-label="Full Stack Web Development">
+            <div class="core-card-inner">
+              <div class="core-card-top">
+                <div class="core-icon-container">
+                  <ion-icon name="desktop-outline" aria-hidden="true"></ion-icon>
+                </div>
+                <div class="core-status-badge">
+                  <span class="status-dot"></span> Online
+                </div>
+              </div>
+              
+              <div class="core-visualizer" aria-hidden="true">
+                <div class="vis-spinning-orbit">
+                  <div class="orbit-ring ring-1"></div>
+                  <div class="orbit-ring ring-2"></div>
+                  <div class="orbit-ring ring-3"></div>
+                  <div class="orbit-core"></div>
+                </div>
+              </div>
+              
+              <div class="core-card-bottom">
+                <h3 class="core-card-title">Full Stack Web Development</h3>
+                <p class="core-card-desc">Building responsive web applications with React/Vite frontends and Node.js/Express backends. End-to-end delivery from design to deployment.</p>
+                <div class="core-progress-line"></div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 2: Backend & API Engineering -->
+          <article class="core-card accent-blue reveal reveal-delay-2" aria-label="Backend & API Engineering">
+            <div class="core-card-inner">
+              <div class="core-card-top">
+                <div class="core-icon-container">
+                  <ion-icon name="server-outline" aria-hidden="true"></ion-icon>
+                </div>
+                <div class="core-status-badge">
+                  <span class="status-dot"></span> Active
+                </div>
+              </div>
+              
+              <div class="core-visualizer" aria-hidden="true">
+                <div class="vis-hexagon-grid">
+                  <div class="hex"></div>
+                  <div class="hex"></div>
+                  <div class="hex"></div>
+                  <div class="hex"></div>
+                  <div class="hex"></div>
+                </div>
+              </div>
+              
+              <div class="core-card-bottom">
+                <h3 class="core-card-title">Backend & API Engineering</h3>
+                <p class="core-card-desc">Designing RESTful APIs, database schemas, and backend logic with FastAPI and Express. MySQL/SQLite data layer.</p>
+                <div class="core-progress-line"></div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 3: Testing & Quality Assurance -->
+          <article class="core-card accent-purple reveal reveal-delay-3" aria-label="Testing & Quality Assurance">
+            <div class="core-card-inner">
+              <div class="core-card-top">
+                <div class="core-icon-container">
+                  <ion-icon name="shield-checkmark-outline" aria-hidden="true"></ion-icon>
+                </div>
+                <div class="core-status-badge">
+                  <span class="status-dot"></span> Stable
+                </div>
+              </div>
+              
+              <div class="core-visualizer" aria-hidden="true">
+                <div class="vis-orbital-rings">
+                  <div class="data-ring"></div>
+                  <div class="data-ring data-ring-reverse"></div>
+                  <div class="data-particle p1"></div>
+                  <div class="data-particle p2"></div>
+                </div>
+              </div>
+              
+              <div class="core-card-bottom">
+                <h3 class="core-card-title">Testing & Quality Assurance</h3>
+                <p class="core-card-desc">Writing unit tests (Jest, PyTest), E2E tests (Cypress, Selenium), and API tests (Postman/Newman). +30% coverage improvements.</p>
+                <div class="core-progress-line"></div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 4: DevOps & Deployment -->
+          <article class="core-card accent-amber reveal reveal-delay-4" aria-label="DevOps & Deployment">
+            <div class="core-card-inner">
+              <div class="core-card-top">
+                <div class="core-icon-container">
+                  <ion-icon name="cloud-upload-outline" aria-hidden="true"></ion-icon>
+                </div>
+                <div class="core-status-badge">
+                  <span class="status-dot"></span> Deployed
+                </div>
+              </div>
+              
+              <div class="core-visualizer" aria-hidden="true">
+                <div class="vis-pulsing-energy">
+                  <div class="energy-wave w1"></div>
+                  <div class="energy-wave w2"></div>
+                  <div class="energy-core"></div>
+                </div>
+              </div>
+              
+              <div class="core-card-bottom">
+                <h3 class="core-card-title">DevOps & Deployment</h3>
+                <p class="core-card-desc">Docker containerization, AWS EC2 hosting, GitHub Actions CI/CD pipelines, and Netlify deployments.</p>
+                <div class="core-progress-line"></div>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Divider: MISSIONS -->
+    <div class="section-divider" aria-hidden="true">
+      <div class="section-divider-line"></div>
+      <div class="section-divider-glow"></div>
+      <div class="section-divider-badge">
+        <div class="section-divider-badge-lines-left">
+          <div class="badge-bar"></div>
+          <div class="badge-bar"></div>
+        </div>
+        <span class="section-divider-text">MISSIONS</span>
+        <div class="section-divider-badge-lines-right">
+          <div class="badge-bar"></div>
+          <div class="badge-bar active"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ============================================================
+         SECTION 3 — SELECTED WORK (STELLAR RANGE)
+         ============================================================ -->
+    <section id="work" aria-labelledby="work-heading" class="stellar-section">
+      <div class="stellar-ambient-bg"></div>
+
+      <div class="container relative">
+        <!-- Header -->
+        <div class="stellar-header-wrap reveal">
+          <div class="stellar-header-main">
+            <div class="stellar-eyebrow">
+              <ion-icon name="sync-outline" aria-hidden="true" class="spin-icon"></ion-icon>
+              <span>Mission Log 2024–26</span>
+            </div>
+            <h2 class="stellar-title" id="work-heading">
+              Stellar<span class="stellar-title-light">Range.</span>
+            </h2>
+          </div>
+
+          <!-- Functional Segmented Controls -->
+          <div class="stellar-filters">
+            <button onclick="updateMissionFilter('all')" id="filter-all" class="filter-btn active">
+              All Missions
+            </button>
+            <button onclick="updateMissionFilter('full-stack')" id="filter-full-stack" class="filter-btn">
+              Full-Stack
+            </button>
+            <button onclick="updateMissionFilter('backend')" id="filter-backend" class="filter-btn">
+              Backend
+            </button>
+            <button onclick="updateMissionFilter('frontend')" id="filter-frontend" class="filter-btn">
+              Frontend
+            </button>
+          </div>
+        </div>
+
+        <!-- Featured Top: Binapani Automation -->
+        <div class="stellar-featured-top reveal" style="margin-bottom: 32px;">
+          <article id="card-binapani" class="stellar-card stellar-card-premium group" data-category="frontend">
+            <div class="stellar-card-bg">
+              <div class="premium-bg-gradient" style="position:absolute; inset:0; background: linear-gradient(135deg, rgba(245, 158, 11, 0.08) 0%, rgba(0,0,0,0) 100%);"></div>
+              <div class="stellar-card-overlay"></div>
+            </div>
+            
+            <div class="stellar-hud-top">
+              <div class="stellar-hud-badges">
+                <span class="hud-config" style="color: #f59e0b; border-color: rgba(245, 158, 11, 0.3); background: rgba(245, 158, 11, 0.05);"><ion-icon name="flash" aria-hidden="true" style="margin-right:4px;"></ion-icon> MY COMPANY &middot; FOUNDER</span>
+                <span class="hud-status"><span class="status-dot" style="background:#f59e0b; box-shadow: 0 0 10px #f59e0b;"></span>Active</span>
+              </div>
+            </div>
+
+            <div class="stellar-card-content">
+              <div class="stellar-watermark" style="color: #f59e0b; opacity: 0.03;">⚡</div>
+              <h3 class="stellar-card-title" style="font-size: clamp(1.8rem, 3vw, 2.5rem); margin-bottom: 12px;">Binapani Automation — Company Website</h3>
+              <p class="stellar-card-desc" style="font-size: 1.05rem; max-width: 800px; margin-bottom: 24px;">
+                Built the complete digital presence for Binapani Automation — an industrial automation company specializing in multi-brand VFD & PLC solutions for steel plants and heavy manufacturing across Eastern India. Designed and developed the full marketing website from scratch.
+              </p>
+              
+              <div class="stellar-tech-specs premium-specs">
+                <div class="spec-item">
+                  <span class="spec-label">Tech Stack</span>
+                  <span class="spec-value">HTML5, CSS3, JS, Bootstrap</span>
+                </div>
+                <div class="spec-item">
+                  <span class="spec-label">Role</span>
+                  <span class="spec-value">Founder & Web Developer</span>
+                </div>
+                <div class="spec-action premium-actions">
+                  <a href="https://wa.me/919641401725" target="_blank" rel="noopener noreferrer" class="premium-btn whatsapp-btn">
+                    <ion-icon name="logo-whatsapp" aria-hidden="true"></ion-icon> Get a Quote
+                  </a>
+                  <a href="https://binapani.netlify.app/" target="_blank" rel="noopener noreferrer" class="premium-btn web-btn">
+                    Visit Binapani <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <!-- Dynamic Grid -->
+        <div id="missions-grid" class="stellar-grid">
+          
+          <!-- Card 1: Featured (Binance Bot) -->
+          <article id="card-binancebot" class="stellar-card stellar-card-large group" data-category="full-stack">
+            <div class="stellar-card-bg">
+              <img src="./assets/images/binance_bot.png" alt="Binance USDT-M Futures Trading Bot" loading="lazy">
+              <div class="stellar-card-overlay"></div>
+            </div>
+            
+            <!-- HUD Overlay -->
+            <div class="stellar-hud-top">
+              <div class="stellar-hud-badges">
+                <span class="hud-config">React / FastAPI Config</span>
+                <span class="hud-status"><span class="status-dot"></span>Active</span>
+              </div>
+            </div>
+
+            <div class="stellar-card-content">
+              <div class="stellar-watermark">01</div>
+              <h3 class="stellar-card-title">Binance USDT-M Futures Trading Bot</h3>
+              <p class="stellar-card-desc">
+                Full-stack trading platform with React/Vite frontend and FastAPI backend supporting market, limit, stop-limit, and OCO orders. Implements TWAP and grid-trading algorithms. Real-time dashboard with WebSocket integration.
+              </p>
+              
+              <div class="stellar-tech-specs">
+                <div class="spec-item">
+                  <span class="spec-label">Orders</span>
+                  <span class="spec-value">4 Types</span>
+                </div>
+                <div class="spec-item">
+                  <span class="spec-label">Algos</span>
+                  <span class="spec-value">TWAP + Grid</span>
+                </div>
+                  <div class="spec-action">
+                    <a href="https://github.com/Surjya003/Binance-trading-bot" target="_blank" rel="noopener noreferrer" aria-label="View Project" class="stellar-action-btn">
+                      <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+          <!-- Right Column Stack -->
+          <div id="stack-right" class="stellar-stack-right">
+            
+            <!-- Card 2: Job Portal Web App -->
+            <article id="card-jobportal" class="stellar-card stellar-card-small group" data-category="full-stack">
+              <div class="stellar-card-bg">
+                <img src="./assets/images/job_portal.png" alt="Job Portal Web App" loading="lazy">
+                <div class="stellar-card-overlay"></div>
+              </div>
+              
+              <div class="stellar-hud-top-right">
+                <div class="stellar-number-badge">02</div>
+              </div>
+
+              <div class="stellar-card-content">
+                <div class="stellar-hud-inline">
+                  <span class="status-dot warning"></span> Deployed
+                </div>
+                <h3 class="stellar-card-title">Job Portal Web App</h3>
+                <p class="stellar-card-desc">
+                  Full-stack job portal with responsive frontend and RESTful backend. MySQL schema, Jest/Cypress tests (+30% coverage), deployed on AWS EC2.
+                </p>
+                <div class="stellar-tech-specs">
+                  <div class="spec-item">
+                    <span class="spec-label">Platform</span>
+                    <span class="spec-value">AWS EC2 / Docker</span>
+                  </div>
+                  <div class="spec-action">
+                    <a href="https://github.com/Surjya003/Job-Portal" target="_blank" rel="noopener noreferrer" aria-label="View Project" class="stellar-action-btn">
+                      <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <!-- Card 3: LoanPro — Loan Management System -->
+            <article id="card-loanpro" class="stellar-card stellar-card-small group" data-category="backend">
+              <div class="stellar-card-bg">
+                <img src="./assets/images/loanpro.png" alt="LoanPro - Loan Management System" loading="lazy">
+                <div class="stellar-card-overlay"></div>
+              </div>
+              
+              <div class="stellar-hud-top-right">
+                <div class="stellar-number-badge">03</div>
+              </div>
+
+              <div class="stellar-card-content">
+                <div class="stellar-hud-inline">
+                  <span class="status-dot info"></span> Complete
+                </div>
+                <h3 class="stellar-card-title">LoanPro — Loan Management</h3>
+                <p class="stellar-card-desc">
+                  Offline loan-management app with automatic eligibility calculation and admin approval panel.
+                </p>
+                <div class="stellar-tech-specs">
+                  <div class="spec-item">
+                    <span class="spec-label">Database</span>
+                    <span class="spec-value">SQLite</span>
+                  </div>
+                  <div class="spec-action">
+                    <a href="https://github.com/Surjya003/LoanPro-" target="_blank" rel="noopener noreferrer" aria-label="View Project" class="stellar-action-btn">
+                      <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <!-- Card 4: Portfolio Website (Wide card spanning all columns below) -->
+          <article id="card-portfolio" class="stellar-card stellar-card-wide group" data-category="frontend">
+            <div class="stellar-card-bg">
+              <img src="./assets/images/space_hero_bg.png" alt="Portfolio Website" loading="lazy">
+              <div class="stellar-card-overlay"></div>
+            </div>
+            
+            <div class="stellar-hud-top">
+              <div class="stellar-hud-badges">
+                <span class="hud-config">Three.js / HTML5 Config</span>
+                <span class="hud-status"><span class="status-dot"></span>Active</span>
+              </div>
+              <div class="stellar-number-badge">04</div>
+            </div>
+
+            <div class="stellar-card-content" style="display: flex; flex-direction: row; justify-content: space-between; align-items: flex-end; width: 100%; flex-wrap: wrap; gap: 24px;">
+              <div>
+                <div class="stellar-hud-inline">
+                  <span class="status-dot"></span> Active
+                </div>
+                <h3 class="stellar-card-title">Portfolio Website</h3>
+                <p class="stellar-card-desc" style="max-width: 600px; margin-bottom: 0;">
+                  Responsive portfolio with 3D Three.js backgrounds and Git-based CI/CD.
+                </p>
+              </div>
+              
+              <div class="stellar-tech-specs" style="border-top: none; padding-top: 0; margin-left: auto;">
+                <div class="spec-item">
+                  <span class="spec-label">Hosting</span>
+                  <span class="spec-value">Netlify / CI/CD</span>
+                </div>
+                <div class="spec-action">
+                  <a href="https://surjya003.netlify.app" target="_blank" rel="noopener noreferrer" aria-label="View Project" class="stellar-action-btn">
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 6: Billing Software (Half-width) -->
+          <article id="card-billingsoftware" class="stellar-card stellar-card-half group" data-category="backend">
+            <div class="stellar-card-bg">
+              <img src="./assets/images/billing_system.webp" alt="Billing Software" loading="lazy">
+              <div class="stellar-card-overlay"></div>
+            </div>
+            <div class="stellar-hud-top-right">
+              <div class="stellar-number-badge">05</div>
+            </div>
+            <div class="stellar-card-content">
+              <div class="stellar-hud-inline">
+                <span class="status-dot"></span> Complete
+              </div>
+              <h3 class="stellar-card-title">Billing Software</h3>
+              <p class="stellar-card-desc">
+                Desktop business invoice manager with PyQt6 GUI and SQLite, generating GST-compliant PDFs.
+              </p>
+              <div class="stellar-tech-specs">
+                <div class="spec-item">
+                  <span class="spec-label">Framework</span>
+                  <span class="spec-value">PyQt6 / ReportLab</span>
+                </div>
+                <div class="spec-action">
+                  <a href="https://github.com/Surjya003/Billing-software-" target="_blank" rel="noopener noreferrer" class="stellar-action-btn">
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 7: Binapani Automation Website (Half-width) -->
+          <article id="card-binapani-grid" class="stellar-card stellar-card-half group" data-category="frontend">
+            <div class="stellar-card-bg">
+              <img src="./assets/images/binapani.png" alt="Binapani Automation Website" loading="lazy">
+              <div class="stellar-card-overlay"></div>
+            </div>
+            <div class="stellar-hud-top-right">
+              <div class="stellar-number-badge">06</div>
+            </div>
+            <div class="stellar-card-content">
+              <div class="stellar-hud-inline" style="color: #f97316;">
+                <span class="status-dot" style="background: #f97316;"></span> Freelance / Founder
+              </div>
+              <h3 class="stellar-card-title">Binapani Automation</h3>
+              <p class="stellar-card-desc">
+                Official business website promoting automation services, multi-brand VFDs & PLC retrofitting.
+              </p>
+              <div class="stellar-tech-specs">
+                <div class="spec-item">
+                  <span class="spec-label">Link</span>
+                  <span class="spec-value">binapani.netlify.app</span>
+                </div>
+                <div class="spec-action">
+                  <a href="https://binapani.netlify.app" target="_blank" rel="noopener noreferrer" class="stellar-action-btn" style="background: #f97316; color: #fff;">
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+        <!-- Hidden Grid for Remaining Projects (Manifest) -->
+        <div id="hidden-manifest" class="stellar-hidden-grid" style="display: none;">
+          
+          <!-- Card 5: SentimentTrader — AI-Powered Trader Insight Tool -->
+          <article id="card-sentimenttrader" class="stellar-card stellar-card-small group" data-category="full-stack">
+            <div class="stellar-card-bg">
+              <img src="./assets/images/sentiment_trader.png" alt="SentimentTrader" loading="lazy">
+              <div class="stellar-card-overlay"></div>
+            </div>
+            <div class="stellar-hud-top-right">
+              <div class="stellar-number-badge">05</div>
+            </div>
+            <div class="stellar-card-content">
+              <div class="stellar-hud-inline">
+                <span class="status-dot warning"></span> Active
+              </div>
+              <h3 class="stellar-card-title">SentimentTrader</h3>
+              <p class="stellar-card-desc">
+                AI platform correlates market sentiment (Fear & Greed Index) with trading records using Flask & Scikit-Learn.
+              </p>
+              <div class="stellar-tech-specs">
+                <div class="spec-item">
+                  <span class="spec-label">Type</span>
+                  <span class="spec-value">Machine Learning</span>
+                </div>
+                <div class="spec-action">
+                  <a href="https://github.com/Surjya003/SentimentTrader-AI-Powered-Trader-Insight-Tool" target="_blank" rel="noopener noreferrer" class="stellar-action-btn">
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+        <!-- Bottom Action -->
+        <div class="stellar-bottom-action">
+          <button id="toggle-manifest-btn" class="stellar-manifest-link">
+            <span>View Complete Manifest</span>
+            <span class="manifest-arrow">→</span>
+          </button>
+        </div>
+
+        <script>
+          function updateMissionFilter(category) {
+            const btns = document.querySelectorAll('.filter-btn');
+            btns.forEach(btn => btn.classList.remove('active'));
+            
+            // Handle active class assignment for filter buttons
+            const activeBtn = document.getElementById('filter-' + category);
+            if (activeBtn) activeBtn.classList.add('active');
+
+            const visibleCards = document.querySelectorAll('#missions-grid .stellar-card');
+            visibleCards.forEach(card => {
+              const match = category === 'all' || card.getAttribute('data-category') === category;
+              card.style.display = match ? 'flex' : 'none';
+              if (match) setTimeout(() => card.style.opacity = '1', 50);
+              else setTimeout(() => { card.style.opacity = '0'; card.style.display = 'none'; }, 300);
+            });
+          }
+
+          document.getElementById('toggle-manifest-btn').addEventListener('click', function() {
+            const manifest = document.getElementById('hidden-manifest');
+            const arrow = this.querySelector('.manifest-arrow');
+            const text = this.querySelector('span:first-child');
+            
+            if (manifest.style.display === 'none') {
+              manifest.style.display = 'grid';
+              setTimeout(() => manifest.classList.add('show'), 50);
+              text.textContent = 'Hide Manifest';
+              if (arrow) arrow.textContent = '↑';
+            } else {
+              manifest.classList.remove('show');
+              setTimeout(() => manifest.style.display = 'none', 300);
+              text.textContent = 'View Complete Manifest';
+              if (arrow) arrow.textContent = '→';
+            }
+          });
+        </script>
+      </div>
+    </section>
+
+    <!-- Section Divider: DATA -->
+    <div class="section-divider" aria-hidden="true">
+      <div class="section-divider-line"></div>
+      <div class="section-divider-glow"></div>
+      <div class="section-divider-center">
+        <div class="section-divider-dot"></div>
+      </div>
+    </div>
+
+    <!-- ============================================================
+         SECTION 4 — TECH STACK (HULL INTEGRITY)
+         ============================================================ -->
+    <section id="stack" aria-labelledby="stack-heading" class="hull-section">
+      <div class="container relative">
+        
+        <div class="hull-header reveal">
+          <h2 class="hull-title" id="stack-heading">Hull Integrity</h2>
+          <p class="hull-subtitle">Production-grade technologies engineered for reliable delivery.</p>
+        </div>
+
+        <div class="hull-list">
+          
+          <!-- Row 1: Frontend Stack -->
+          <article class="hull-row reveal fan-slide-in" style="--anim-delay: 0.1s;">
+            <div class="hull-col-left">
+              <div class="hull-icon">
+                <ion-icon name="layers-outline" aria-hidden="true"></ion-icon>
+              </div>
+              <div class="hull-info">
+                <h3 class="hull-name">Frontend Stack</h3>
+                <span class="hull-label">Frontend Engineering</span>
+              </div>
+            </div>
+
+            <div class="hull-col-center">
+              <div class="hull-specs-grid">
+                <div class="spec-block">
+                  <span class="spec-title">Stack</span>
+                  <span class="spec-desc">React, Vite, HTML5, CSS3, JavaScript</span>
+                </div>
+                <div class="spec-block">
+                  <span class="spec-title">Projects</span>
+                  <span class="spec-desc">Production Apps: 4+</span>
+                </div>
+                <div class="spec-block">
+                  <span class="spec-title">Rating</span>
+                  <span class="spec-desc">Excellent</span>
+                </div>
+              </div>
+              <div class="hull-equalizer" aria-hidden="true">
+                <div class="eq-bar" style="--eq-h: 80%; --eq-d: 0.1s;"></div>
+                <div class="eq-bar" style="--eq-h: 40%; --eq-d: 0.3s;"></div>
+                <div class="eq-bar" style="--eq-h: 90%; --eq-d: 0.2s;"></div>
+                <div class="eq-bar" style="--eq-h: 60%; --eq-d: 0.5s;"></div>
+                <div class="eq-bar" style="--eq-h: 30%; --eq-d: 0.4s;"></div>
+                <div class="eq-bar" style="--eq-h: 70%; --eq-d: 0.6s;"></div>
+                <div class="eq-bar" style="--eq-h: 100%; --eq-d: 0.2s;"></div>
+                <div class="eq-bar" style="--eq-h: 50%; --eq-d: 0.7s;"></div>
+                <div class="eq-bar" style="--eq-h: 80%; --eq-d: 0.1s;"></div>
+                <div class="eq-bar" style="--eq-h: 40%; --eq-d: 0.8s;"></div>
+                <div class="eq-bar" style="--eq-h: 90%; --eq-d: 0.3s;"></div>
+                <div class="eq-bar" style="--eq-h: 60%; --eq-d: 0.5s;"></div>
+              </div>
+            </div>
+
+            <div class="hull-col-right">
+              <div class="tier-badge tier-s">Tier S</div>
+              <button class="hull-action-btn" aria-label="Expand Frontend specs">
+                <ion-icon name="add-outline" aria-hidden="true"></ion-icon>
+              </button>
+            </div>
+          </article>
+
+          <!-- Row 2: Backend Stack -->
+          <article class="hull-row reveal fan-slide-in" style="--anim-delay: 0.2s;">
+            <div class="hull-col-left">
+              <div class="hull-icon">
+                <ion-icon name="server-outline" aria-hidden="true"></ion-icon>
+              </div>
+              <div class="hull-info">
+                <h3 class="hull-name">Backend Stack</h3>
+                <span class="hull-label">Data & Logic</span>
+              </div>
+            </div>
+
+            <div class="hull-col-center">
+              <div class="hull-specs-grid">
+                <div class="spec-block">
+                  <span class="spec-title">Stack</span>
+                  <span class="spec-desc">Node.js, Express, FastAPI, Python, MySQL, SQLite</span>
+                </div>
+                <div class="spec-block">
+                  <span class="spec-title">Projects</span>
+                  <span class="spec-desc">APIs Built: 5+</span>
+                </div>
+                <div class="spec-block">
+                  <span class="spec-title">Rating</span>
+                  <span class="spec-desc">Robust</span>
+                </div>
+              </div>
+              <div class="hull-equalizer" aria-hidden="true">
+                <div class="eq-bar" style="--eq-h: 60%; --eq-d: 0.2s;"></div>
+                <div class="eq-bar" style="--eq-h: 90%; --eq-d: 0.4s;"></div>
+                <div class="eq-bar" style="--eq-h: 50%; --eq-d: 0.1s;"></div>
+                <div class="eq-bar" style="--eq-h: 80%; --eq-d: 0.3s;"></div>
+                <div class="eq-bar" style="--eq-h: 40%; --eq-d: 0.6s;"></div>
+                <div class="eq-bar" style="--eq-h: 100%; --eq-d: 0.2s;"></div>
+                <div class="eq-bar" style="--eq-h: 70%; --eq-d: 0.5s;"></div>
+                <div class="eq-bar" style="--eq-h: 30%; --eq-d: 0.8s;"></div>
+                <div class="eq-bar" style="--eq-h: 90%; --eq-d: 0.1s;"></div>
+                <div class="eq-bar" style="--eq-h: 50%; --eq-d: 0.4s;"></div>
+                <div class="eq-bar" style="--eq-h: 80%; --eq-d: 0.3s;"></div>
+                <div class="eq-bar" style="--eq-h: 60%; --eq-d: 0.7s;"></div>
+              </div>
+            </div>
+
+            <div class="hull-col-right">
+              <div class="tier-badge tier-a">Tier A</div>
+              <button class="hull-action-btn" aria-label="Expand Backend specs">
+                <ion-icon name="add-outline" aria-hidden="true"></ion-icon>
+              </button>
+            </div>
+          </article>
+
+          <!-- Row 3: DevOps & Testing -->
+          <article class="hull-row reveal fan-slide-in" style="--anim-delay: 0.3s;">
+            <div class="hull-col-left">
+              <div class="hull-icon">
+                <ion-icon name="cloud-done-outline" aria-hidden="true"></ion-icon>
+              </div>
+              <div class="hull-info">
+                <h3 class="hull-name">DevOps & Testing</h3>
+                <span class="hull-label">Infrastructure</span>
+              </div>
+            </div>
+
+            <div class="hull-col-center">
+              <div class="hull-specs-grid">
+                <div class="spec-block" style="grid-column: span 2;">
+                  <span class="spec-title">Stack</span>
+                  <span class="spec-desc">Docker, AWS EC2, GitHub Actions, Netlify, Jest, Cypress, Selenium, Postman</span>
+                </div>
+                <div class="spec-block">
+                  <span class="spec-title">Projects</span>
+                  <span class="spec-desc">Test Coverage: +30%</span>
+                </div>
+              </div>
+              <div class="hull-equalizer" aria-hidden="true">
+                <div class="eq-bar" style="--eq-h: 40%; --eq-d: 0.5s;"></div>
+                <div class="eq-bar" style="--eq-h: 70%; --eq-d: 0.1s;"></div>
+                <div class="eq-bar" style="--eq-h: 100%; --eq-d: 0.3s;"></div>
+                <div class="eq-bar" style="--eq-h: 60%; --eq-d: 0.2s;"></div>
+                <div class="eq-bar" style="--eq-h: 90%; --eq-d: 0.6s;"></div>
+                <div class="eq-bar" style="--eq-h: 50%; --eq-d: 0.4s;"></div>
+                <div class="eq-bar" style="--eq-h: 80%; --eq-d: 0.7s;"></div>
+                <div class="eq-bar" style="--eq-h: 30%; --eq-d: 0.1s;"></div>
+                <div class="eq-bar" style="--eq-h: 60%; --eq-d: 0.5s;"></div>
+                <div class="eq-bar" style="--eq-h: 100%; --eq-d: 0.2s;"></div>
+                <div class="eq-bar" style="--eq-h: 70%; --eq-d: 0.4s;"></div>
+                <div class="eq-bar" style="--eq-h: 40%; --eq-d: 0.3s;"></div>
+              </div>
+            </div>
+
+            <div class="hull-col-right">
+              <div class="tier-badge tier-a">Tier A</div>
+              <button class="hull-action-btn" aria-label="Expand DevOps specs">
+                <ion-icon name="add-outline" aria-hidden="true"></ion-icon>
+              </button>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Divider: LOG -->
+    <div class="section-divider" aria-hidden="true">
+      <div class="section-divider-line"></div>
+      <div class="section-divider-glow"></div>
+      <div class="section-divider-badge">
+        <div class="section-divider-badge-lines-left">
+          <div class="badge-bar"></div>
+          <div class="badge-bar"></div>
+        </div>
+        <span class="section-divider-text">LOG</span>
+        <div class="section-divider-badge-lines-right">
+          <div class="badge-bar"></div>
+          <div class="badge-bar active"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ============================================================
+         SECTION 5 — THE ASCENT (EXPERIENCE)
+         ============================================================ -->
+    <section id="experience" aria-labelledby="experience-heading" class="ascent-section" style="background-image: radial-gradient(rgba(255, 255, 255, 0.2) 1px, transparent 1px); background-size: 40px 40px;">
+      <div class="container relative">
+        
+        <div class="ascent-header reveal">
+          <span class="ascent-eyebrow">CHRONOLOGY</span>
+          <h2 class="ascent-title" id="experience-heading">The Ascent</h2>
+        </div>
+
+        <div class="ascent-grid">
+          
+          <!-- Left: The Alternating Timeline (8 cols) -->
+          <div class="ascent-timeline-wrap">
+            <div class="ascent-timeline">
+              
+              <!-- Timeline Item 1 (Text Right) -->
+              <div class="timeline-row row-right reveal ascent-slide-right">
+                <div class="timeline-spacer"></div>
+                <div class="timeline-center-node">
+                  <div class="node-circle">26</div>
+                </div>
+                <div class="timeline-content text-left">
+                  <div class="timeline-watermark">2026</div>
+                  <p class="timeline-date">Feb 2026 — Mar 2026</p>
+                  <h3 class="timeline-role">Freelance Web Developer (Contract)</h3>
+                  <p class="timeline-org">Binapani Automation &bull; Kolkata, India</p>
+                  <ul class="timeline-desc-list">
+                    <li>Designed and developed company's official marketing website from scratch</li>
+                    <li>Built with HTML5, CSS3, JavaScript; deployed on Netlify with Git CI/CD</li>
+                    <li>Delivered within 2-month timeline with direct stakeholder coordination</li>
+                  </ul>
+                </div>
+              </div>
+
+              <!-- Timeline Item 2 (Text Left) -->
+              <div class="timeline-row row-left reveal ascent-slide-left">
+                <div class="timeline-content text-right">
+                  <div class="timeline-watermark">2024</div>
+                  <p class="timeline-date">Jul 2024 — Sep 2024</p>
+                  <h3 class="timeline-role">Full Stack Development Intern</h3>
+                  <p class="timeline-org">Digital Blinc &bull; Remote</p>
+                  <ul class="timeline-desc-list">
+                    <li>Built Job-Portal Web App end-to-end (responsive frontend + RESTful Node.js/Express backend)</li>
+                    <li>Designed MySQL schema; wrote Jest + Cypress tests (+30% coverage)</li>
+                    <li>Deployed on AWS EC2 via Docker within Agile sprints; participated in code reviews</li>
+                  </ul>
+                </div>
+                <div class="timeline-center-node">
+                  <div class="node-circle">24</div>
+                </div>
+                <div class="timeline-spacer"></div>
+              </div>
+
+              <!-- Timeline Item 3 (Text Right) -->
+              <div class="timeline-row row-right reveal ascent-slide-right">
+                <div class="timeline-spacer"></div>
+                <div class="timeline-center-node">
+                  <div class="node-circle">21</div>
+                </div>
+                <div class="timeline-content text-left">
+                  <div class="timeline-watermark">2021</div>
+                  <p class="timeline-date">Aug 2021 — Jul 2025</p>
+                  <h3 class="timeline-role">B.Tech, Computer Science & Engineering</h3>
+                  <p class="timeline-org">University of Engineering & Management, Kolkata</p>
+                  <p class="timeline-gpa">GPA: 7.66/10.0</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- Right: Sidebar (4 cols) -->
+          <aside class="ascent-sidebar-wrap reveal">
+            
+            <!-- Resume Card -->
+            <div class="sidebar-glass-card" style="margin-bottom: 24px;">
+              <div class="sidebar-card-header">
+                <ion-icon name="document-text-outline" aria-hidden="true" class="sidebar-icon"></ion-icon>
+                <h3>My Resume</h3>
+              </div>
+              <p class="sidebar-text">Download my full resume with all experience, projects, and certifications.</p>
+              <a href="./assets/Resume.pdf" download class="ascent-btn" aria-label="Download Resume PDF">
+                <ion-icon name="download-outline" aria-hidden="true"></ion-icon>
+                <span>Download PDF</span>
+              </a>
+            </div>
+
+            <!-- Certifications Card -->
+            <div class="sidebar-glass-card" style="margin-bottom: 24px;">
+              <div class="sidebar-card-header">
+                <ion-icon name="ribbon-outline" aria-hidden="true" class="sidebar-icon"></ion-icon>
+                <h3>Certifications</h3>
+              </div>
+              <ul class="cert-list">
+                <li><ion-icon name="checkmark-circle" aria-hidden="true"></ion-icon> Google Cybersecurity</li>
+                <li><ion-icon name="checkmark-circle" aria-hidden="true"></ion-icon> Network Automation Engineering Fundamentals</li>
+                <li><ion-icon name="checkmark-circle" aria-hidden="true"></ion-icon> Linux: Processes & Resource Management for DevOps</li>
+                <li><ion-icon name="checkmark-circle" aria-hidden="true"></ion-icon> Artificial Intelligence Foundation</li>
+              </ul>
+            </div>
+
+            <!-- Skills Cloud -->
+            <div class="sidebar-glass-card">
+              <div class="sidebar-card-header">
+                <ion-icon name="code-slash-outline" aria-hidden="true" class="sidebar-icon"></ion-icon>
+                <h3>Skills</h3>
+              </div>
+              <div class="skill-cloud">
+                <span class="skill-tag">Full-Stack Dev</span>
+                <span class="skill-tag">REST APIs</span>
+                <span class="skill-tag">React</span>
+                <span class="skill-tag">Node.js</span>
+                <span class="skill-tag">Docker</span>
+                <span class="skill-tag">AWS</span>
+                <span class="skill-tag">CI/CD</span>
+                <span class="skill-tag">Database Design</span>
+                <span class="skill-tag">Testing</span>
+                <span class="skill-tag">Agile/Scrum</span>
+                <span class="skill-tag">Git</span>
+                <span class="skill-tag">Python</span>
+                <span class="skill-tag">JavaScript</span>
+              </div>
+            </div>
+
+          </aside>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Divider: LOG -->
+    <div class="section-divider" aria-hidden="true">
+      <div class="section-divider-line"></div>
+      <div class="section-divider-glow"></div>
+      <div class="section-divider-center">
+        <div class="section-divider-dot"></div>
+      </div>
+    </div>
+
+    <!-- ============================================================
+         SECTION 6 — COMMAND CENTER (CONTACT)
+         ============================================================ -->
+    <section id="contact" aria-labelledby="contact-heading" class="comms-section">
+      <div class="container relative">
+        
+        <div class="comms-header reveal">
+          <span class="comms-eyebrow">COMMUNICATIONS ARRAY</span>
+          <h2 class="comms-title" id="contact-heading">Open Comms</h2>
+        </div>
+
+        <div class="comms-grid">
+          
+          <!-- Left: Mission Briefing & Contact Info -->
+          <div class="comms-left reveal">
+            <h3 class="mission-title">Have a <span class="text-accent">mission</span> in mind?</h3>
+            <p class="mission-desc">
+              Whether you need a web app, REST API, or full-stack solution — reach out and let's ship something reliable together.
+            </p>
+
+            <div class="contact-cards">
+              <a href="mailto:surjyakamalsaha@gmail.com" class="contact-card" aria-label="Email Surjya">
+                <div class="card-icon"><ion-icon name="mail-outline" aria-hidden="true"></ion-icon></div>
+                <div class="card-data">
+                  <span class="data-value">surjyakamalsaha@gmail.com</span>
+                </div>
+              </a>
+              
+              <a href="tel:+919641401725" class="contact-card" aria-label="Call Surjya">
+                <div class="card-icon"><ion-icon name="call-outline" aria-hidden="true"></ion-icon></div>
+                <div class="card-data">
+                  <span class="data-value">+91 964 140 1725</span>
+                </div>
+              </a>
+              
+              <div class="contact-card">
+                <div class="card-icon"><ion-icon name="location-outline" aria-hidden="true"></ion-icon></div>
+                <div class="card-data">
+                  <span class="data-value">West Bengal, India</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="comms-socials-new">
+              <a href="https://github.com/Surjya003" class="social-btn" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                <ion-icon name="logo-github" aria-hidden="true"></ion-icon>
+              </a>
+              <a href="https://www.linkedin.com/in/surjyakamal-saha-6a7553220/" class="social-btn" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                <ion-icon name="logo-linkedin" aria-hidden="true"></ion-icon>
+              </a>
+              <a href="https://www.instagram.com/surjya003/" class="social-btn" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                <ion-icon name="logo-instagram" aria-hidden="true"></ion-icon>
+              </a>
+              <a href="https://binapani.netlify.app/" class="social-btn" target="_blank" rel="noopener noreferrer" aria-label="Binapani Automation">
+                <ion-icon name="globe-outline" aria-hidden="true"></ion-icon>
+              </a>
+            </div>
+          </div>
+
+          <!-- Right: Direct Communications -->
+          <div class="comms-right reveal">
+            <div class="form-glass-card">
+              <h3 class="comms-actions-title">Establish Link</h3>
+              <p class="comms-actions-subtitle">Choose your preferred communication channel to initiate contact.</p>
+              
+              <div class="comms-action-buttons">
+                <!-- Email Link -->
+                <a href="mailto:surjyakamalsaha@gmail.com" class="comms-action-link email-action" aria-label="Send Email">
+                  <div class="action-icon-wrap">
+                    <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+                  </div>
+                  <div class="action-text-wrap">
+                    <span class="action-label">Email Transmission</span>
+                    <span class="action-value">surjyakamalsaha@gmail.com</span>
+                  </div>
+                  <div class="action-arrow">
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </div>
+                </a>
+
+                <!-- WhatsApp Link -->
+                <a href="https://wa.me/919641401725?text=Hello%20Surjya,%20I'd%20like%20to%20discuss%20a%20project!" target="_blank" rel="noopener noreferrer" class="comms-action-link whatsapp-action" aria-label="Send WhatsApp Message">
+                  <div class="action-icon-wrap">
+                    <ion-icon name="logo-whatsapp" aria-hidden="true"></ion-icon>
+                  </div>
+                  <div class="action-text-wrap">
+                    <span class="action-label">WhatsApp Secure Chat</span>
+                    <span class="action-value">+91 964 140 1725</span>
+                  </div>
+                  <div class="action-arrow">
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Trusted By Strip -->
+        <div class="trusted-strip-new reveal">
+          <p class="trusted-text">Binapani Automation &middot; Digital Blinc &middot; UEM Kolkata</p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ============================================================
+         BINAPANI AUTOMATION PROMO BANNER
+         ============================================================ -->
+    <section class="binapani-promo-section relative z-10" style="padding: 20px 0 80px 0;">
+      <div class="container">
+        <div class="binapani-promo-card reveal">
+          <div class="bp-left">
+            <div class="bp-icon"><ion-icon name="flash" aria-hidden="true"></ion-icon></div>
+            <div class="bp-title-stack">
+              <h4>Binapani Automation</h4>
+              <span>Industrial Automation & VFD Services</span>
+            </div>
+          </div>
+          <div class="bp-center">
+            <p>Need VFD, PLC, or Automation Solutions? We stock Siemens, ABB, Delta, L&T — ready to ship.</p>
+          </div>
+          <div class="bp-right">
+            <a href="https://binapani.netlify.app/" target="_blank" rel="noopener noreferrer" class="bp-btn bp-btn-primary">Visit Website &rarr;</a>
+            <a href="https://wa.me/919641401725" target="_blank" rel="noopener noreferrer" class="bp-btn bp-btn-wa"><ion-icon name="logo-whatsapp" aria-hidden="true"></ion-icon> WhatsApp Us</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============================================================
+       FOOTER
+       ============================================================ -->
+  <footer class="space-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        
+        <!-- Col 1: Brand -->
+        <div class="footer-col" style="grid-column: span 12;">
+          <div style="display: flex; flex-direction: column; align-items: center; text-align: center; margin-bottom: 24px;">
+            <a href="#hero" class="footer-brand-new" aria-label="Back to home">
+              <div class="footer-logo-circle">
+                <ion-icon name="planet-outline" aria-hidden="true"></ion-icon>
+              </div>
+              <span>SKS</span>
+            </a>
+            <p class="footer-tagline-new">
+              Full Stack Developer &middot; West Bengal, India
+            </p>
+          </div>
+        </div>
+
+        <div class="footer-links-wrapper">
+          <!-- Quick Links -->
+          <div class="footer-col-new">
+            <h4 class="footer-heading-new">Quick Links</h4>
+            <nav aria-label="Footer Navigation">
+              <a href="#hero" class="footer-link-new">Home</a>
+              <a href="#services" class="footer-link-new">Services</a>
+              <a href="#work" class="footer-link-new">Work</a>
+              <a href="#stack" class="footer-link-new">Stack</a>
+              <a href="#experience" class="footer-link-new">Resume</a>
+              <a href="#contact" class="footer-link-new">Contact</a>
+            </nav>
+          </div>
+
+          <!-- Socials -->
+          <div class="footer-col-new">
+            <h4 class="footer-heading-new">Socials</h4>
+            <nav aria-label="Footer Socials">
+              <a href="https://github.com/Surjya003" class="footer-link-new" target="_blank" rel="noopener noreferrer">GitHub</a>
+              <a href="https://www.linkedin.com/in/surjyakamal-saha-6a7553220/" class="footer-link-new" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+              <a href="https://www.instagram.com/surjya003/" class="footer-link-new" target="_blank" rel="noopener noreferrer">Instagram</a>
+              <a href="https://binapani.netlify.app/" class="footer-link-new" target="_blank" rel="noopener noreferrer">Binapani</a>
+            </nav>
+          </div>
+
+          <!-- Contact -->
+          <div class="footer-col-new">
+            <h4 class="footer-heading-new">Contact</h4>
+            <nav aria-label="Footer Contact">
+              <a href="mailto:surjyakamalsaha@gmail.com" class="footer-link-new">surjyakamalsaha@gmail.com</a>
+              <a href="tel:+919641401725" class="footer-link-new">+91 964 140 1725</a>
+            </nav>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom-new">
+        <p class="footer-copy-new">
+          &copy; 2026 Surjya Kamal Saha. Engineered with precision.
+        </p>
+        <a href="#hero" class="back-to-top-new" aria-label="Scroll back to top">
+          &uarr;
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Toast notification -->
+
+  <!-- Disable heavy Three.js by default on low-end devices (set no3d=1 in URL to force) -->
+
+</body>
+</html>
