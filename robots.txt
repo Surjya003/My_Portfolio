@@ -3,4 +3,4 @@ Allow: /
 Disallow: /node_modules/
 Disallow: /dist/
 
-Sitemap: https://surjyakamalsaha.netlify.app/sitemap.xml
+Sitemap: https://surjya003.netlify.app/sitemap.xml
