@@ -19,7 +19,7 @@ if (!canvas) {
     const loadingScreen = document.getElementById('loading-screen');
     if (loadingScreen) loadingScreen.remove();
     // Defer 3D initialization to prevent main-thread blocking on initial load
-    window.addEventListener('load', () => {
+    const init3D = () => {
         setTimeout(() => {
             // Dynamic import — splits Three.js into a separate chunk for performance
             import('./src/managers/SceneManager.js').then(({ SceneManager }) => {
@@ -43,5 +43,11 @@ if (!canvas) {
                 if (loadingScreen) loadingScreen.remove();
             });
         }, 100);
-    });
+    };
+
+    if (document.readyState === 'complete') {
+        init3D();
+    } else {
+        window.addEventListener('load', init3D);
+    }
 }
