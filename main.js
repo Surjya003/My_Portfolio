@@ -18,6 +18,7 @@ if (!canvas) {
     canvas.style.display = 'none';
     const loadingScreen = document.getElementById('loading-screen');
     if (loadingScreen) loadingScreen.remove();
+} else {
     // Defer 3D initialization to prevent main-thread blocking on initial load
     const init3D = () => {
         setTimeout(() => {
